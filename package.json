@@ -1,0 +1,21 @@
+{
+  "name": "counter_sushi5_0_api",
+  "version": "1.0.0",
+  "description": "The_COUNTER_SUSHI5_0_API_represents_a_RESTful_implementation_of_SUSHI_automation_intended_to_returns_COUNTER_Release_5_reports_and_snippets_of_COUNTER_usage_in_JSON_format",
+  "license": "Apache 2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
